@@ -1,0 +1,40 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="Title">Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Title">
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Des">Des</label>
+                <input asp-for="Des" class="form-control" placeholder="Des">
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Link">Link</label>
+                <input asp-for="Link" class="form-control" placeholder="Link">
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Photo">Photo</label>
+                <input asp-for="Photo" type="file" class="form-control" placeholder="Photo">
+            </div>
+            <div class="form-group col-md-6">
+                <select asp-items="@ViewBag.Cat" asp-for="CategoryId"  id="cars">
+                    
+                    
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <button asp-controller="Product" asp-action="Create" type="submit" class="btn btn-primary">Create</button>
+            <button asp-controller="Product" asp-action="Index" class="btn btn-md rounded font-sm hover-up btn-primary">Go Back</button>
+        </div>
+    </form>
+</div>
+
+
+

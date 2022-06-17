@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section-padding{
+    padding: 80px 0;
+}
+/* header */
+nav{
+    background-color: #252525;
+}
+nav h2{
+    color: white;
+}
+nav li{
+    background-color: #CC1616;
+    color: white;
+}
+nav li:hover{
+    color: blue;
+}
+.home{
+    height: 100vh;
+}
+.home h1{
+    font-weight: 600;
+    font-size: 3.2rem;
+    color: white;
+
+}
+.home p{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+.home button{
+    
+    width: 15%;
+    border-radius: 0 !important;
+    border: 2px solid white;
+}
+.home button :hover{
+    background-color: #CC1616 !important;
+}
+/* header End */
+/* 1 */
+.row img{
+    width: 600px;
+    height: 422px;
+}
+.row .col-4 .digit{
+    color: #ED5B5B;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.hover-card .col-4{
+
+}
+.hover-card :hover{
+    background-color: #CC1616;
+    color: white !important;
+}
+.logoes{
+    background-color: #F2F2F2;
+   
+}
+.logo-heigth{
+    height: 100px;
+}
+.logoes img{
+    padding: 20px 0;
+    height: 90px;
+    width: 90px;
+}
+/* 1 end */
+/* 2 */
+.card-box{
+    padding: 70px 30px;
+    border: 1px solid black;
+}
+.txt-services{
+    text-align: center;
+    
+}
+.txt-services i{
+    font-size: 50px;
+    color: #CC1616;
+}
+.txt-services p{
+    color: #7A7A7A;
+}
+.card-box:hover{
+    background-color: #CC1616;
+    color: white !important;
+    transition: .5s;
+}
+/* 2 End */
+/* 3 */
+.url-img{
+    height: 350px;
+}
+.img-section h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.img-section p{
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+/* 3 End */
+
+/* 4 */
+.category  li a{
+    color: #7E7E7E;
+    font-weight: 500;
+}
+.portfolio-rows img{
+    height: 400px;
+    width: 100%;
+}
+.portfolio-info{
+    opacity: 0;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+}
+/* 4 End */
+/* 6 */
+
+/* 6 End */
+
+
+
+
+
+
+
+
+
+
+.image-controller{
+    position: relative;
+}
+.bottom-c{
+    position: absolute;
+    bottom: 0;
+}

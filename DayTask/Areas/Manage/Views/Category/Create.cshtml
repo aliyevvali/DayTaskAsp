@@ -1,0 +1,23 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="CatName">CatName</label>
+                <input asp-for="CatName" class="form-control" placeholder="CatName">
+            </div>
+
+        </div>
+        <div class="form-group">
+            <button asp-controller="Category" asp-action="Create" type="submit" class="btn btn-primary">Create</button>
+            <button asp-controller="Category" asp-action="Index" class="btn btn-md rounded font-sm hover-up btn-primary">Go Back</button>
+
+        </div>
+    </form>
+</div>
+
